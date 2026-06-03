@@ -3,7 +3,7 @@ package ru.netology.netology_hibernate.entity;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "PERSONS")
+@Table(name = "persons")
 public class Person {
 
     @EmbeddedId
